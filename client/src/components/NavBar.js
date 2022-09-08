@@ -7,7 +7,9 @@ export default function Navbar() {
 
     return(
         <Box sx={{flexGrow: 1 }}>
-            <AppBar position='static' color='transparent'>
+            <AppBar position='static' color='transparent' style={{
+                backgroundColor: '#103955'
+            }}>
                 <Container>
                     <Toolbar>
                         <Typography variant='h4' sx={{flexGrow: 1 }}>
