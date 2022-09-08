@@ -14,7 +14,7 @@ export default function Navbar() {
                     <Toolbar>
                         <Typography variant='h4' sx={{flexGrow: 1 }}>
                             <Link to='/' style={{textDecoration: 'none', color: '#eee'}}>
-                            PERN Stack
+                            To-Do PERN App
                             </Link>
                         </Typography>
                         <Button variant='contained' color='primary' onClick={ () => navigate('/tasks/new')}>
